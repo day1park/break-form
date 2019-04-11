@@ -20,26 +20,26 @@ export class FormPersonalDetails extends Component {
     return (
       <MuiThemeProvider>
         <React.Fragment>
-          <AppBar title="Enter Personal Details" />
+          <AppBar title="Breaking Details" />
           <TextField
-            hintText="Enter Your Occupation"
-            floatingLabelText="Occupation"
-            onChange={handleChange("occupation")}
-            defaultValue={values.occupation}
+            hintText="Enter Your Bboy/Bgirl Name"
+            floatingLabelText="B-Boy/B-Girl Name"
+            onChange={handleChange("bboy")}
+            defaultValue={values.bboy}
           />
           <br />
           <TextField
-            hintText="Enter Your City"
-            floatingLabelText="City"
-            onChange={handleChange("city")}
-            defaultValue={values.city}
+            hintText="What Crew do you Represent?"
+            floatingLabelText="Crew Name"
+            onChange={handleChange("crew")}
+            defaultValue={values.crew}
           />
           <br />
           <TextField
-            hintText="Enter Your bio"
-            floatingLabelText="bio"
-            onChange={handleChange("bio")}
-            defaultValue={values.bio}
+            hintText="What Country are you from?"
+            floatingLabelText="Country"
+            onChange={handleChange("country")}
+            defaultValue={values.country}
           />
           <br />
           <RaisedButton
